@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.top {
+  background-color: rgb(250, 196, 241);
+  border-bottom: 5px solid rgb(243, 128, 216);
+  width: 100%;
+  height: 180px;
+  
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo{
+  width: 145px;
+  height: 145px;
+  margin-left: 40px;
+
+  border-radius: 20px;
+  border: 5px solid rgb(243, 128, 216);
+}
+
+.nav-wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.navigation {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 100px;
+
+  background-color: rgb(243, 128, 216);
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(253, 101, 220);
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(250, 196, 241);
+  text-shadow: 0 0 2px rgb(78, 6, 61, 1);
+}
+
+.navigation li {
+  cursor: pointer;
+  flex: 1;
+  transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.navigation li:hover {
+  text-shadow: 0 0 6px rgb(207, 24, 165, 1),
+  0 0 8px rgb(219, 31, 175),
+  0 0 10px rgb(255, 255, 255);
+}
+
+.hero {
+  background-color: #e1ffef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width:100%;
+  height: auto;
+  padding: 20px;
+}
+
+.copy {
+  width: 90%;
+  max-width: 1000px;
+  min-width: 500px;
+  height: auto;
+}
+
+.heroimg-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 50px;
+}
+
+.heroimg-room1, .heroimg-room2, .heroimg-room3 {
+  flex:1;
+
+  display: flex;
+  align-items: center;
+}
+
+.heroimg-room1{
+  justify-content: flex-start;
+}
+.heroimg-room2{
+  justify-content: center;
+}
+.heroimg-room3{
+  justify-content: flex-end;
+}
+
+.heroimg1, .heroimg3 {
+  width: 350px;
+  height: auto;
+}
+
+.heroimg1 {
+  margin-bottom: 150px;
+  filter: drop-shadow(0px 25px 30px rgba(255, 255, 131, 0.7));
+  border-radius: 5px 5px 20px 20px;
+  border-top: 6px solid rgba(185, 230, 126, 0.3)
+}
+
+.heroimg2 {
+  width: 700px;
+  height: auto;
+}
+.heroimg3 {
+  margin-top: 150px;
+  filter: drop-shadow(0px -25px 30px rgba(255, 255, 131, 0.7));
+  border-radius: 20px 20px 5px 5px;
+  border-bottom: 6px solid rgba(185, 230, 126, 0.3) ;
+}
