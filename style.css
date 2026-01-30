@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="UTF-8">
+  <title>cafe-puppyhouse</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+  <header class="top">
+   <img src="images/logo.png" alt="puppyhouse logo" class="logo">
+  <nav class="nav-wrap">
+   <ul class="navigation">
+    <li>MENU</li>
+    <li>SERVICE</li>
+    <li>RESERVATION</li>
+    <li>ADDRESS</li>
+   </ul>
+  </nav>
+  </header>
+
+  <main>
+   <section class="hero">
+   <img src="images/copy.png" alt="main copy" class="copy">
+   <section class="heroimg-container">
+    <article class="heroimg-room1"> <img src="images/puppy1.png" alt="Dog1" class="heroimg1"> </article>
+    <article class="heroimg-room2"> <img src="images/picture.png" alt="Dog%girl" class="heroimg2"> </article>
+    <article class="heroimg-room3"> <img src="images/puppy2.png" alt="Dog2" class="heroimg3"> </article>
+   </section>
+   </section>
+  </main>
+   
+ </body>
+<html>
